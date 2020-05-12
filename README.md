@@ -6,6 +6,10 @@ Scheming is a pyspark schema helper. Load a saved JSON schema file for a DataFra
 
 spark-submit example.py
 
+OR
+
+jupyter notebook example.ipynb
+
 ## Motivation
 
 Nearly every pyspark example I've ever come across has used inferSchema=True:
