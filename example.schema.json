@@ -1,0 +1,35 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "fname",
+            "type": "string",
+            "nullable": true,
+            "metadata": {"desc":"first name"}
+        },
+        {
+            "name": "lname",
+            "type": "string",
+            "nullable": true,
+            "metadata": {"desc":"last name"}
+        },
+        {
+            "name": "role",
+            "type": "string",
+            "nullable": true,
+            "metadata": {"desc":"primary instrument"}
+        },
+        {
+            "name": "year",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {"desc":"year member joined"}
+        },
+        {
+            "name": "comment",
+            "type": "string",
+            "nullable": true,
+            "metadata": {"desc":"misc info"}
+        }
+    ]
+}
